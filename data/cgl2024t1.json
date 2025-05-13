@@ -1,0 +1,1201 @@
+[
+  {
+    "1": {
+      "question": "Who among the following is the world renowned exponent of the bamboo flute?",
+      "asked_in": "",
+      "options": {
+        "MS Subbulakshmi": false,
+        "Ravi Shankar": false,
+        "Hariprasad Chaurasia": true,
+        "Bismillah Khan": false
+      }
+    }
+  },
+  {
+    "2": {
+      "question": "What is net investment?",
+      "asked_in": "",
+      "options": {
+        "Sum of all the investments in a country": false,
+        "Gross investment + depreciation": false,
+        "Gross capital investment - indirect taxes": false,
+        "Gross investment - depreciation": true
+      }
+    }
+  },
+  {
+    "3": {
+      "question": "India won the ICC Men Cricket World Cup for the first time in which of the following years?",
+      "asked_in": "",
+      "options": {
+        "1996": false,
+        "1992": false,
+        "1987": false,
+        "1983": true
+      }
+    }
+  },
+  {
+    "4": {
+      "question": "Kathakali, one of the classical dances of India, is predominantly performed in which of the following states of India?",
+      "asked_in": "",
+      "options": {
+        "Assam": false,
+        "Manipur": false,
+        "Uttar Pradesh": false,
+        "Kerala": true
+      }
+    }
+  },
+  {
+    "5": {
+      "question": "Identify the oldest iron and steel company of India from the following options.",
+      "asked_in": "",
+      "options": {
+        "Tata Iron & Steel Company(TISCO)": true,
+        "Visvesvaraiya Iron & Steel Works": false,
+        "Indian Iron & Steel Company (IISCO)": false,
+        "Mysore Iron & Steel Works": false
+      }
+    }
+  },
+  {
+    "6": {
+      "question": "The magnificent Kailasa temple at Ellora was built during the reign of which Rashtrakuta king?",
+      "asked_in": "",
+      "options": {
+        "Krishna I": true,
+        "Indra III": false,
+        "Govinda III": false,
+        "Amoghavarsha": false
+      }
+    }
+  },
+  {
+    "7": {
+      "question": "In which state/UT is the Hemis festival celebrated?",
+      "asked_in": "",
+      "options": {
+        "Punjab": false,
+        "Sikkim": false,
+        "Lakshadweep": false,
+        "Ladakh": true
+      }
+    }
+  },
+  {
+    "8": {
+      "question": "Which of the following is the largest artificial lake of Asia?",
+      "asked_in": "",
+      "options": {
+        "Naini Lake": false,
+        "Bhopal Lake": true,
+        "Dal Lake": false,
+        "Chilika Lake": false
+      }
+    }
+  },
+  {
+    "9": {
+      "question": "In 2002, Zakir Hussain became the youngest percussionist to be honoured with which award?",
+      "asked_in": "",
+      "options": {
+        "Sangeet Natak Akademi Award": false,
+        "Grammy Award": false,
+        "Padma Bhushan": true,
+        "National Heritage Fellowship": false
+      }
+    }
+  },
+  {
+    "10": {
+      "question": "Microbes like Rhizobium, Nitrosomonas and Nitrobacter are used for:",
+      "asked_in": "",
+      "options": {
+        "nitrogen cycling": true,
+        "carbon cycling": false,
+        "water cycling": false,
+        "sulphur cycling": false
+      }
+    }
+  },
+  {
+    "11": {
+      "question": "With reference to Sepoy Mutiny of 1857, on which of the following dates did the soldiers at Meerut start their journey to Delhi?",
+      "asked_in": "",
+      "options": {
+        "10 May": true,
+        "19 April": false,
+        "2 June": false,
+        "29 March": false
+      }
+    }
+  },
+  {
+    "12": {
+      "question": "Who among the following was selected as the Sherpa for India’s G20 hosted in 2022-23?",
+      "asked_in": "",
+      "options": {
+        "Piyush Goyal": false,
+        "Ashwini Vaishnav": false,
+        "Shaktikanta Das": false,
+        "Amitabh Kant": true
+      }
+    }
+  },
+  {
+    "13": {
+      "question": "Purvanchal Himalayas does NOT comprise of:",
+      "asked_in": "",
+      "options": {
+        "Naga hills": false,
+        "Pir Panjal range": true,
+        "Manipur hills": false,
+        "Mizo hills": false
+      }
+    }
+  },
+  {
+    "14": {
+      "question": "In which year did India make its Olympic debut in hockey?",
+      "asked_in": "",
+      "options": {
+        "1936": false,
+        "1932": false,
+        "1924": false,
+        "1928": true
+      }
+    }
+  },
+  {
+    "15": {
+      "question": "Which fundamental duty is a student performing while taking a session on compost making at home?",
+      "asked_in": "",
+      "options": {
+        "To strive towards excellence in all spheres of individual and collective activity": false,
+        "To safeguard public property and to abjure violence": false,
+        "To develop the scientific temper, humanism and the spirit of inquiry": false,
+        "To protect and improve the natural environment": true
+      }
+    }
+  },
+  {
+    "16": {
+      "question": "In August 2022, which scheme was launched to rehabilitate people engaged in begging in 75 municipalities?",
+      "asked_in": "",
+      "options": {
+        "TWINKLE-75": false,
+        "BEAM-75": false,
+        "SMILE-75": true,
+        "RISE-75": false
+      }
+    }
+  },
+  {
+    "17": {
+      "question": "Which is the National Mission for Financial Inclusion in India?",
+      "asked_in": "",
+      "options": {
+        "Deendayal Antyodaya Yojana": false,
+        "Deen Dayal Upadhyaya Grameen Kaushalya Yojana": false,
+        "Swarnjayanti Gram Swarozgar Yojana": false,
+        "Pradhan Mantri Jan Dhan Yojana": true
+      }
+    }
+  },
+  {
+    "18": {
+      "question": "Which of the following plays was NOT written by Harshavardhana?",
+      "asked_in": "",
+      "options": {
+        "Vikramorvasiyam": true,
+        "Ratnavali": false,
+        "Nagananda": false,
+        "Priyadarshika": false
+      }
+    }
+  },
+  {
+    "19": {
+      "question": "The organisms that do not have a defined nucleus or organelles are classified in to _______ Kingdom.",
+      "asked_in": "",
+      "options": {
+        "Fungi": false,
+        "Protista": false,
+        "Monera": true,
+        "Plantae": false
+      }
+    }
+  },
+  {
+    "20": {
+      "question": "Which Article of the Constitution of India provides that ‘there shall be a Vice President of India’?",
+      "asked_in": "",
+      "options": {
+        "Article 61": false,
+        "Article 63": true,
+        "Article 65": false,
+        "Article 62": false
+      }
+    }
+  },
+  {
+    "21": {
+      "question": "A javelin thrown by an athlete is in ________ motion.",
+      "asked_in": "",
+      "options": {
+        "oscillatory": false,
+        "periodic": false,
+        "rectilinear": false,
+        "curvilinear": true
+      }
+    }
+  },
+  {
+    "22": {
+      "question": "Green revolution increased cereal production in India from 72.4 million tons in 1965-66 to ________ million tons in 1978-79.",
+      "asked_in": "",
+      "options": {
+        "150.8": false,
+        "165.9": false,
+        "131.9": true,
+        "141.2": false
+      }
+    }
+  },
+  {
+    "23": {
+      "question": "Calculate the oxidation number of ‘S’ in H2S2O7.",
+      "asked_in": "",
+      "options": {
+        "3": false,
+        "7": false,
+        "6": true,
+        "2": false
+      }
+    }
+  },
+  {
+    "24": {
+      "question": "Which of the following is NOT an amendment made to the Airport Economic Regulatory Authority (AERA) Amendment Act, 2021?",
+      "asked_in": "",
+      "options": {
+        "The government can call any airport a major airport just by notification.": false,
+        "The government will club together profit-making and loss-making airports.": false,
+        "The government can offer airports as a package in PPP mode to the prospective bidders.": false,
+        "A major airport is one which has an annual traffic of minimum 35 lakh passengers.": true
+      }
+    }
+  },
+  {
+    "25": {
+      "question": "The first southern campaign of Alauddin Khilji in 1307-08 AD was led to which of the following regions?",
+      "asked_in": "",
+      "options": {
+        "Devagiri": true,
+        "Warangal": false,
+        "Dwar Samudra": false,
+        "Madura": false
+      }
+    }
+  },
+  {
+    "26": {
+      "question": "What is the IUPAC name of tertiarybutyl alcohol?",
+      "asked_in": "",
+      "options": {
+        "2-Methylpropan-2-ol": true,
+        "1-propylpropan-3-ol": false,
+        "1-Methylpropan-3-ol": false,
+        "1-ethylpropan-3-ol": false
+      }
+    }
+  },
+  {
+    "27": {
+      "question": "What is the relationship between interest rate and demand for money?",
+      "asked_in": "",
+      "options": {
+        "No relationship exists": false,
+        "Inverse": true,
+        "Direct": false,
+        "Proportionate": false
+      }
+    }
+  },
+  {
+    "28": {
+      "question": "When electricity is passed through water, what kind of chemical reaction occurs?",
+      "asked_in": "",
+      "options": {
+        "Decomposition": true,
+        "Displacement": false,
+        "Double displacement": false,
+        "Combination": false
+      }
+    }
+  },
+  {
+    "29": {
+      "question": "Which music-composer duo was honoured with the National Lata Mangeshkar Award for the year 2020?",
+      "asked_in": "",
+      "options": {
+        "Sachin–Jigar": false,
+        "Jatin-Lalit": false,
+        "Salim–Sulaiman": false,
+        "Anand-Milind": true
+      }
+    }
+  },
+  {
+    "30": {
+      "question": "Which of the following can be represented as a functional unit of nature?",
+      "asked_in": "",
+      "options": {
+        "Vehicles": false,
+        "Ecosystem": true,
+        "Humans": false,
+        "Plants": false
+      }
+    }
+  },
+  {
+    "31": {
+      "question": "In which state of India is Kund or Tanka used for water harvesting?",
+      "asked_in": "",
+      "options": {
+        "Rajasthan": true,
+        "Andhra Pradesh": false,
+        "Uttar Pradesh": false,
+        "Punjab": false
+      }
+    }
+  },
+  {
+    "32": {
+      "question": "The inaugural match of the Women Premier League 2023 cricket was played in which of the following venues?",
+      "asked_in": "",
+      "options": {
+        "Delhi": false,
+        "Mumbai": false,
+        "Chennai": false,
+        "Kolkata": true
+      }
+    }
+  },
+  {
+    "33": {
+      "question": "Which of the following is NOT correct about Directive Principles of State Policy?",
+      "asked_in": "",
+      "options": {
+        "They ensure social and economic development.": false,
+        "They are justiciable in nature.": true,
+        "They provide guidelines for the governance of the country.": false,
+        "They are morally binding on the government.": false
+      }
+    }
+  },
+  {
+    "34": {
+      "question": "At what latitude does the easterly jet stream blow over peninsular India during the summer months?",
+      "asked_in": "",
+      "options": {
+        "24°N": true,
+        "30°N": false,
+        "14°N": false,
+        "28°N": false
+      }
+    }
+  },
+  {
+    "35": {
+      "question": "According to Census of India 2011, in rural India, which state has the maximum female workforce participation rate?",
+      "asked_in": "",
+      "options": {
+        "Arunachal Pradesh": false,
+        "Uttar Pradesh": false,
+        "Himachal Pradesh": false,
+        "Andhra Pradesh": true
+      }
+    }
+  },
+  {
+    "36": {
+      "question": "In 2021, in which of the following states did the Prime Minister lay the foundation stone for the Raja Mahendra Pratap Singh State University?",
+      "asked_in": "",
+      "options": {
+        "Uttar Pradesh": true,
+        "Gujarat": false,
+        "Himachal Pradesh": false,
+        "Nagaland": false
+      }
+    }
+  },
+  {
+    "37": {
+      "question": "When was a Madrasa opened in Kolkata to promote the study of Arabic, Persian and Islamic law?",
+      "asked_in": "",
+      "options": {
+        "1772 C.E.": true,
+        "1783 C.E.": false,
+        "1781 C.E.": false,
+        "1774 C.E.": false
+      }
+    }
+  },
+  {
+    "38": {
+      "question": "Which Article of the Constitution explains that the executive power of every state shall be so exercised as not to impede ...?",
+      "asked_in": "",
+      "options": {
+        "Article 261": false,
+        "Article 247": true,
+        "Article 257": false,
+        "Article 123": false
+      }
+    }
+  },
+  {
+    "39": {
+      "question": "Which of the following statements correctly defines the green revolution?",
+      "asked_in": "",
+      "options": {
+        "It is a new strategy in agriculture to produce food grains, especially wheat and rice.": true,
+        "It is a new strategy to increase the share of the forest.": false,
+        "It is a new strategy to use green colour for all purposes.": false,
+        "It is a new strategy to use only herbal products.": false
+      }
+    }
+  },
+  {
+    "40": {
+      "question": "In the year 1952, who among the following lent his voice for the film ‘Amar Bhupali’ ...?",
+      "asked_in": "",
+      "options": {
+        "Kishore Kumar": false,
+        "Hemanta Mukherjee": false,
+        "Debabrata Biswas": false,
+        "Manna Dey": true
+      }
+    }
+  },
+  {
+    "41": {
+      "question": "In which part of India does the hot wind ‘Loo’ blow?",
+      "asked_in": "",
+      "options": {
+        "West and Southwestern": false,
+        "North and Northwestern": true,
+        "East and Northeastern": false,
+        "South and Southwestern": false
+      }
+    }
+  },
+  {
+    "42": {
+      "question": "The government of which of the following states created a draft policy in 2022 for senior citizens on the basis of article 41...?",
+      "asked_in": "",
+      "options": {
+        "Karnataka": false,
+        "Telangana": false,
+        "Tamil Nadu": false,
+        "Kerala": true
+      }
+    }
+  },
+  {
+    "43": {
+      "question": "When was the High Court and Supreme Court Judges (Salaries and Conditions of Service) Amendment Bill, 2021 introduced in Lok Sabha?",      "asked_in": "",
+      "options": {
+        "27 September 2021": true,
+        "30 November 2021": false,
+        "29 March 2021": false,
+        "28 April 2021": false
+      }
+    }
+  },
+  {
+    "44": {
+      "question": "At which Olympics did Gagan Narang win a bronze medal?",
+      "asked_in": "",
+      "options": {
+        "London 2012": true,
+        "Rio 2016": false,
+        "Athens 2004": false,
+        "Beijing 2008": false
+      }
+    }
+  },
+  {
+    "45": {
+      "question": "Who among the following devised the system of ‘Subsidiary Alliance’?",
+      "asked_in": "",
+      "options": {
+        "Lord Wellesley": true,
+        "Lord Canning": false,
+        "Lord William Bentinck": false,
+        "Lord Dalhousie": false
+      }
+    }
+  },
+  {
+    "46": {
+      "question": "At which Olympics was Kho-Kho featured in an exhibition in the main stadium?",
+      "asked_in": "",
+      "options": {
+        "1936": true,
+        "1932": false,
+        "2008": false,
+        "2016": false
+      }
+    }
+  },
+  {
+    "47": {
+      "question": "Which of the following statements is INCORRECT?",
+      "asked_in": "",
+      "options": {
+        "Fats and oils get reduced over time and smell bad.": false,
+        "Fats and oils are oxidised, they become rancid.": false,
+        "Antioxidants are added to foods containing fats and oil to prevent oxidation.": false,
+        "Chips manufacturers usually flush bags of chips with Nitrogen to prevent rancidity.": true
+      }
+    }
+  },
+  {
+    "48": {
+      "question": "Hot local wind that flows over north India in summer is known as:",
+      "asked_in": "",
+      "options": {
+        "Loo": true,
+        "Chinook": false,
+        "Mango showers": false,
+        "Purga": false
+      }
+    }
+  },
+  {
+    "49": {
+      "question": "‘Nuakhai’ is the state festival of:",
+      "asked_in": "",
+      "options": {
+        "Meghalaya": false,
+        "Odisha": true,
+        "Tamil Nadu": false,
+        "Bihar": false
+      }
+    }
+  },
+  {
+    "50": {
+      "question": "Which Article of the Indian Constitution prohibits providing of any religious instruction in the educational institutions maintained by the State?",
+      "asked_in": "",
+      "options": {
+        "Article 29": false,
+        "Article 28": true,
+        "Article 30": false,
+        "Article 31": false
+      }
+    }
+  },
+  {
+    "51": {
+      "question": "As per the definition of Census of India, a ‘marginal worker’ is a person who works for:",
+      "asked_in": "",
+      "options": {
+        "less than 183 days (or six months) in a year": true,
+        "more than 183 days": false,
+        "eight months in a year": false,
+        "83 days in a year": false
+      }
+    }
+  },
+  {
+    "52": {
+      "question": "In which year was the 'Naye Bharat Ke Sapne' campaign launched by Meta and the Ministry of Women?",
+      "asked_in": "",
+      "options": {
+        "2022": false,
+        "2023": true,
+        "2020": false,
+        "2021": false
+      }
+    }
+  },
+  {
+    "53": {
+      "question": "Under which of the following Acts was the power to rule India transferred from the East India Company to the British Crown?",
+      "asked_in": "",
+      "options": {
+        "Charter Act of 1833": false,
+        "Regulating Act 1773": false,
+        "Pitt's India Act 1784": false,
+        "Government of India Act 1858": true
+      }
+    }
+  },
+  {
+    "54": {
+      "question": "Which of the following is an inactivated (killed) polio vaccine developed in 1952?",
+      "asked_in": "",
+      "options": {
+        "Salk vaccine": true,
+        "Imvanex vaccine": false,
+        "HDCV vaccine": false,
+        "TAB vaccine": false
+      }
+    }
+  },
+  {
+    "55": {
+      "question": "Which of the following statements is correct about the Five-Year Plans?",
+      "asked_in": "",
+      "options": {
+        "The five-year plan focuses mostly on private intervention in the economy.": false,
+        "The five-year plan always focused on the growth of the tertiary sector.": false,
+        "The five-year plan permits long-term intervention by the government in the economy.": true,
+        "A five-year plan always stresses market-oriented activities.": false
+      }
+    }
+  },
+  {
+    "56": {
+      "question": "What is the length of the Indian Railways network, according to Railway Yearbook 2019-20?",
+      "asked_in": "",
+      "options": {
+        "67,956 km": true,
+        "1,604 km": false,
+        "63,950 km": false,
+        "2,402 km": false
+      }
+    }
+  },
+  {
+    "57": {
+      "question": "In Pradhan Mantri Gramin Awaas Yojana, the cost of unit assistance is shared between Central and State Governments in the ratio ________ in plain areas.",
+      "asked_in": "",
+      "options": {
+        "60 : 40": true,
+        "40 : 60": false,
+        "90 : 10": false,
+        "30 : 70": false
+      }
+    }
+  },
+  {
+    "58": {
+      "question": "Silappathikaram (the Jewelled Anklet), the earliest epic poem in Tamil, was written in the 5th-6th Century CE by ________.",
+      "asked_in": "",
+      "options": {
+        "Tolkappiyar": false,
+        "Ilango Adigal": true,
+        "Sittalai Sattanar": false,
+        "Tirumalisai Alwar": false
+      }
+    }
+  },
+  {
+    "59": {
+      "question": "Which of the following is the largest crustal plate on Earth with an area of over 103,000,000 km²?",
+      "asked_in": "",
+      "options": {
+        "South American plate": false,
+        "African plate": false,
+        "Eurasian plate": false,
+        "Pacific plate": true
+      }
+    }
+  },
+  {
+    "60": {
+      "question": "Which of the following personalities is a Padma Shri awardee folk singer from Uttar Pradesh?",
+      "asked_in": "",
+      "options": {
+        "Ila Arun": false,
+        "Ajita Srivastava": true,
+        "Gurmeet Bawa": false,
+        "Teejan Bai": false
+      }
+    }
+  },
+  {
+    "61": {
+      "question": "Which of the following countries won the first men’s Asian Hockey Championship trophy?",
+      "asked_in": "",
+      "options": {
+        "Japan": false,
+        "China": false,
+        "India": true,
+        "Pakistan": false
+      }
+    }
+  },
+  {
+    "62": {
+      "question": "Which of the following goods needs further transformation in the economic process?",
+      "asked_in": "",
+      "options": {
+        "Consumer durable goods": false,
+        "Finished goods": false,
+        "Intermediate goods": true,
+        "Capital goods": false
+      }
+    }
+  },
+  {
+    "63": {
+      "question": "In which of the following states is the Nrityagram, an Odissi dance institution, located?",
+      "asked_in": "",
+      "options": {
+        "Kerala": false,
+        "Karnataka": false,
+        "Tamil Nadu": true,
+        "Maharashtra": false
+      }
+    }
+  },  
+  {
+    "64": {
+      "question": "Who among the following was the youngest instrumentalist to be awarded the Padma Bhushan in 2002?",
+      "asked_in": "",
+      "options": {
+        "Pandit Ravi Shankar": false,
+        "Ustad Zakir Hussain": true,
+        "Pandit Bhimsen Joshi": false,
+        "Ustad Bismillah Khan": false
+      }
+    }
+  },
+  {
+    "65": {
+      "question": "Who was the revenue minister during the reign of Akbar?",
+      "asked_in": "",
+      "options": {
+        "Todar Mal": true,
+        "Abdul Rahim": false,
+        "Mulla Do-Piyaza": false,
+        "Tansen": false
+      }
+    }
+  },
+  {
+    "66": {
+      "question": "Which of the following illustrations shows the mitochondrion’s structural details?",
+      "asked_in": "",
+      "options": {
+        "d": false,
+        "b": false,
+        "c": true,
+        "a": false
+      }
+    }
+  },
+  {
+    "67": {
+      "question": "Which of the following is a straight-chain alkyl carboxylic acid with the formula CH₃CH₂CH₂CO₂H?",
+      "asked_in": "",
+      "options": {
+        "Methanoic acid": false,
+        "Propionic acid": false,
+        "Ethanoic acid": false,
+        "Butyric acid": true
+      }
+    }
+  },
+  {
+    "68": {
+      "question": "Article 77 of the Indian Constitution deals with the ________.",
+      "asked_in": "",
+      "options": {
+        "term of office of the Vice-President": false,
+        "Vice-President of India": false,
+        "oath of office by the Vice-President": false,
+        "conduct of business of the Government of India": true
+      }
+    }
+  },
+  {
+    "69": {
+      "question": "The Muslim Women (Protection of Rights on Marriage) Act, 2019 deals with subsistence allowance in which Section?",
+      "asked_in": "",
+      "options": {
+        "Section 5": true,
+        "Section 6": false,
+        "Section 7": false,
+        "Section 4": false
+      }
+    }
+  },
+  {
+    "70": {
+      "question": "Hubbardia heptaneuron, which has become endangered, is a species of which of the following?",
+      "asked_in": "",
+      "options": {
+        "Grass": false,
+        "Bamboo": true,
+        "Tiger": false,
+        "Crane": false
+      }
+    }
+  },
+  {
+    "71": {
+      "question": "Which of the following is in geographical proximity to Sri Lanka?",
+      "asked_in": "",
+      "options": {
+        "Only Karaikal": false,
+        "Karaikal and Yanam": true,
+        "Mahe": false,
+        "Only Yanam": false
+      }
+    }
+  },
+  {
+    "72": {
+      "question": "Which Five-Year Plan primarily focused on the 'Garibi Hatao' initiative?",
+      "asked_in": "",
+      "options": {
+        "Sixth Five-Year Plan": false,
+        "Fourth Five-Year Plan": false,
+        "Fifth Five-Year Plan": true,
+        "Third Five-Year Plan": false
+      }
+    }
+  },
+  {
+    "73": {
+      "question": "Which of the following statements is INCORRECT about the Directive Principles of State Policy?",
+      "asked_in": "",
+      "options": {
+        "They promote welfare of individuals. Hence, they are personal and individualistic.": true,
+        "These have moral and political sanctions.": false,
+        "They aim at establishing social and economic democracy in the country.": false,
+        "They are positive, as they require the State to do certain things.": false
+      }
+    }
+  },
+  {
+    "74": {
+      "question": "After the death of Humayun, the 13-year-old Akbar was coronated in 1556 at Kalanaur in ________.",
+      "asked_in": "",
+      "options": {
+        "Rajasthan": true,
+        "Gujarat": false,
+        "Bengal": false,
+        "Punjab": false
+      }
+    }
+  },
+  {
+    "75": {
+      "question": "The climate of a place is NOT affected by which of the following?",
+      "asked_in": "",
+      "options": {
+        "Relief": false,
+        "Type of soil": true,
+        "Location": false,
+        "Distance from the sea": false
+      }
+    }
+  },
+  {
+    "76": {
+      "question": "In which musical note did Newland put the metals Co and Ni with halogens?",
+      "asked_in": "",
+      "options": {
+        "Fa": false,
+        "Do": false,
+        "Re": true,
+        "Mi": false
+      }
+    }
+  },
+  {
+    "77": {
+      "question": "Which of the following is NOT correct with regards to the history of calculating National Income (NI) in India?",
+      "asked_in": "",
+      "options": {
+        "First attempt to compute NI was made by Dadabhai Naoroji.": false,
+        "First official attempt to compute NI was made by PC Mahalanobis.": true,
+        "Dadabhai Naoroji divided the Indian economy into two parts: primary and secondary.": false,
+        "First scientific method to compute NI was used by Dr VKRV Rao.": false
+      }
+    }
+  },
+  {
+    "78": {
+      "question": "According to the Indian Railways (2019-2020), which state has the largest railway track in India?",
+      "asked_in": "",
+      "options": {
+        "Punjab": false,
+        "Haryana": false,
+        "Madhya Pradesh": false,
+        "Uttar Pradesh": true
+      }
+    }
+  },
+  {
+      "79": {
+      "question": "Which government honoured Pandit Anindo Chatterjee with the Banga Vibhushan Award in 2022?",
+      "asked_in": "",
+      "options": {
+        "Assam": false,
+        "Tripura": false,
+        "West Bengal": true,
+        "Jharkhand": false
+      }
+    }
+  },
+  {
+    "80": {
+      "question": "Which of the following festivals is celebrated as the birth anniversary of Guru Nanak Dev?",
+      "asked_in": "",
+      "options": {
+        "Hola Mohalla": false,
+        "Baisakhi": false,
+        "Gurpurab": true,
+        "Chappar Mela": false
+      }
+    }
+  },
+  {
+    "81": {
+      "question": "Who was appointed as India’s 28th Controller General of Accounts (CGA) in March 2023?",
+      "asked_in": "",
+      "options": {
+        "Arun Goel": true,
+        "Praveen Sharma": false,
+        "Vikram Devdutt": false,
+        "SS Dubey": false
+      }
+    }
+  },
+  {
+    "82": {
+      "question": "The Parliament passed the Marine Aids to Navigation Bill, 2021 to repeal and replace which Act?",
+      "asked_in": "",
+      "options": {
+        "The Dangerous Machines (Regulation) Act, 1983": false,
+        "The Personal Injuries (Emergency Provisions) Act, 1962": false,
+        "The Lighthouse Act, 1927": true,
+        "The Dourine Act, 1910": false
+      }
+    }
+  },
+  {
+    "83": {
+      "question": "Which of the following is a non-perishable food?",
+      "asked_in": "",
+      "options": {
+        "Pulses": true,
+        "Meat": false,
+        "Curds": false,
+        "Milk": false
+      }
+    }
+  },
+  {
+    "84": {
+      "question": "How many awards were presented at the National Sports and Adventure Awards-2022 ceremony held on 30 November 2022?",
+      "asked_in": "",
+      "options": {
+        "32": false,
+        "44": false,
+        "52": true,
+        "28": false
+      }
+    }
+  },
+  {
+    "85": {
+      "question": "Which Governor-General helped Raja Raman Roy abolish sati?",
+      "asked_in": "",
+      "options": {
+        "Lord Ripon": false,
+        "Lord Curzon": false,
+        "Lord Cornwallis": false,
+        "Lord William Bentinck": true
+      }
+    }
+  },
+  {
+    "86": {
+      "question": "When was the 1st Asian Kabaddi Championship held?",
+      "asked_in": "",
+      "options": {
+        "1970": true,
+        "1985": false,
+        "1980": false,
+        "1975": false
+      }
+    }
+  },
+  {
+    "87": {
+      "question": "The decomposition of gaseous ammonia on a hot platinum surface is a ________ order reaction at high pressure.",
+      "asked_in": "",
+      "options": {
+        "two": false,
+        "zero": true,
+        "three": false,
+        "one": false
+      }
+    }
+  },
+  {
+    "88": {
+      "question": "Which was the mascot of the FIH men’s Hockey World Cup 2023?",
+      "asked_in": "",
+      "options": {
+        "Jitu": false,
+        "Bheema": false,
+        "Olly": true,
+        "Asha": false
+      }
+    }
+  },
+  {
+    "89": {
+      "question": "The Indian Constitution has established a ________ judicial system.",
+      "asked_in": "",
+      "options": {
+        "partial judicial system": false,
+        "dual judicial system": true,
+        "independent judicial system": false,
+        "plural judicial system": false
+      }
+    }
+  },
+  {
+    "90": {
+      "question": "Which organisms are classified as Aves?",
+      "asked_in": "",
+      "options": {
+        "Fishes": false,
+        "Frogs": false,
+        "Snakes": false,
+        "Birds": true
+      }
+    }
+  },
+  {
+    "91": {
+      "question": "Mahabalipuram emerged as an important centre of temple architecture under which south Indian kingdom?",
+      "asked_in": "",
+      "options": {
+        "Pallava": true,
+        "Chola": false,
+        "Chera": false,
+        "Chalukya": false
+      }
+    }
+  },
+  {
+    "92": {
+      "question": "As of March 2023, how many High Courts are there in India?",
+      "asked_in": "",
+      "options": {
+        "25": true,
+        "35": false,
+        "30": false,
+        "20": false
+      }
+    }
+  },
+  {
+    "93": {
+      "question": "Harela is a festival of greenery, peace, prosperity, and environmental conservation, primarily celebrated in which of the following states?",
+      "asked_in": "",
+      "options": {
+        "Madhya Pradesh": false,
+        "Haryana": false,
+        "Assam": false,
+        "Uttarakhand": true
+      }
+    }
+  },
+  {
+    "94": {
+      "question": "Which species is known as black lipped pearl oyster found in the Indo-Pacific, within tropical coral reefs?",
+      "asked_in": "",
+      "options": {
+        "Aplysia dactylomela": false,
+        "Dentalium neohexagonum": false,
+        "Chaetopleura apiculata": false,
+        "Pinctada margaritifera": true
+      }
+    }
+  },
+  {
+    "95": {
+      "question": "The CSO adopted the concept of Gross Value Added in ______.",
+      "asked_in": "",
+      "options": {
+        "January 2012": false,
+        "January 2015": false,
+        "January 2017": false,
+        "January 2013": true
+      }
+    }
+  },
+  {
+    "96": {
+      "question": "Which of the following social reformers of 19th century India was the author of ‘Stree Purush Tulana’?",
+      "asked_in": "",
+      "options": {
+        "Tarabai Shinde": true,
+        "Swarnakumari Devi": false,
+        "Pandita Ramabai": false,
+        "Usha Mehta": false
+      }
+    }
+  },
+  {
+    "97": {
+      "question": "How many medals did India win in International Shooting Sport Federation (ISSF) World Cup 2022, which was held in Cairo, Egypt?",
+      "asked_in": "",
+      "options": {
+        "9": false,
+        "6": false,
+        "7": true,
+        "8": false
+      }
+    }
+  },
+  {
+    "98": {
+      "question": "Ustad Vilayat Ali Khan is a maestro in ________.",
+      "asked_in": "",
+      "options": {
+        "Tabla": false,
+        "Mridangam": false,
+        "Sitar": true,
+        "Flute": false
+      }
+    }
+  },
+  {
+    "99": {
+      "question": "Which physical feature of India prevents the cold winds from central Asia from entering the Indian subcontinent?",
+      "asked_in": "",
+      "options": {
+        "Indian plains": false,
+        "Indian desert": false,
+        "Coastal area": false,
+        "Himalayas": true
+      }
+    }
+  },
+  {
+    "100": {
+      "question": "Which state initiated the implementation of the Mid-day Meal scheme in elementary schools?",
+      "asked_in": "",
+      "options": {
+        "Tamil Nadu": true,
+        "Madhya Pradesh": false,
+        "Uttar Pradesh": false,
+        "Karnataka": false
+      }
+    }
+  }
+]
