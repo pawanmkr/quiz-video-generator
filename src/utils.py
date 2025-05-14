@@ -1,7 +1,6 @@
 import json
 import os
 from typing import Dict, List, Any, Tuple
-from PIL import Image, ImageDraw, ImageFont
 
 def rgb2hex(rgb: Tuple[int, int, int]) -> str:
     """Convert RGB tuple to hexadecimal color string."""

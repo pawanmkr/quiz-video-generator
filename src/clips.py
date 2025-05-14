@@ -1,18 +1,52 @@
-# clips.py
+import textwrap
 import numpy as np
-from typing import List, Dict, Tuple, Any, OrderedDict
-from moviepy.editor import TextClip, VideoClip
-from collections import OrderedDict
+from typing import List, OrderedDict
+from moviepy.editor import VideoClip
+from PIL import Image, ImageDraw, ImageFont
 
 from config.settings import (
-    W, H, PALETTE, Q_WIDTH, Q_TOP_MARGIN, OPT_COLS, OPT_ROW_GAP, 
+    W, H, PALETTE, Q_WIDTH, Q_TOP_MARGIN, OPT_COLS, OPT_ROW_GAP,
     OPT_TOP_GAP, SLIDE_DELAY, SLIDE_DUR, REGULAR_FONT, BOLD_FONT
 )
 from src.utils import rgb2hex
 from src.txt_rendering import render_text_clip
 
+MAX_OPT_CHARS_PER_LINE = 25  # ✅ keep as-is
+
+
+def wrap_text_pixel(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> str:
+    """Wrap text so that no line exceeds max_width in pixels."""
+    dummy_img = Image.new("RGB", (10, 10))
+    draw = ImageDraw.Draw(dummy_img)
+
+    words = text.split()
+    lines = []
+    current = ""
+
+    for word in words:
+        test_line = f"{current} {word}".strip()
+        bbox = draw.textbbox((0, 0), test_line, font=font)
+        line_width = bbox[2] - bbox[0]
+
+        if line_width <= max_width:
+            current = test_line
+        else:
+            if current:
+                lines.append(current)
+            current = word
+
+    if current:
+        lines.append(current)
+
+    return "\n".join(lines)
+
+
+def wrap_text(text: str, max_chars: int) -> str:
+    """Insert line breaks so no line exceeds max_chars chars (used for options)."""
+    return textwrap.fill(text, width=max_chars)
+
+
 def make_progress_bar(duration: float) -> VideoClip:
-    """Create a progress bar animation for the timer."""
     def make_frame(t):
         bar_w = int(W * (t / duration))
         frame = np.zeros((10, W, 3), dtype=np.uint8)
@@ -21,94 +55,91 @@ def make_progress_bar(duration: float) -> VideoClip:
         return frame
     return VideoClip(make_frame, duration=duration).set_pos(("center", 0))
 
+
 def make_question_clip(question_text: str, dur: float) -> VideoClip:
-    """Create a clip displaying the question text using PIL rendering for better Devanagari support."""
+    font = ImageFont.truetype(BOLD_FONT, 90)
+    wrapped = wrap_text_pixel(question_text, font, Q_WIDTH)
+
     return render_text_clip(
-        text=question_text,
-        font_path=REGULAR_FONT,
-        font_size=70,
+        text=wrapped,
+        font_path=BOLD_FONT,
+        font_size=90,
         color_rgb=PALETTE["q_text"],
         duration=dur,
         pos=(150, Q_TOP_MARGIN),
         align="left",
-        padding=0,
-        # No background color to make it transparent
+        padding=(20, 20)
     )
 
+
 def get_question_height(question_text: str) -> int:
-    """
-    Estimate the height of the question text for positioning options.
-    Creates a temporary clip to measure its dimensions.
-    """
-    # Create a very short temporary clip just to get dimensions
-    temp_clip = render_text_clip(
-        text=question_text, 
+    font = ImageFont.truetype(BOLD_FONT, 90)
+    wrapped = wrap_text_pixel(question_text, font, Q_WIDTH)
+
+    temp = render_text_clip(
+        text=wrapped,
         font_path=REGULAR_FONT,
         font_size=70,
         color_rgb=PALETTE["q_text"],
-        duration=0.1
+        duration=0.1,
+        padding=(20, 20)
     )
-    _, h = temp_clip.size
-    return h
+    return temp.size[1]
 
-def make_option_clips(options: OrderedDict, dur: float, reveal: bool = False) -> List[VideoClip]:
-    """Create clips for all answer options using PIL rendering."""
-    # Calculate start_y based on a placeholder question
-    qh = get_question_height("Sample")
+
+def make_option_clips(
+    question_text: str,
+    options: OrderedDict,
+    dur: float,
+    reveal: bool = False
+) -> List[VideoClip]:
+    qh = get_question_height(question_text)
     start_y = Q_TOP_MARGIN + qh + OPT_TOP_GAP
-    
-    clips = []
+
+    clips: List[VideoClip] = []
+
     for idx, (text, is_corr) in enumerate(options.items()):
         row, col = divmod(idx, 2)
         y = start_y + row * OPT_ROW_GAP
-        label = f"{idx+1}. {text}"
+        wrapped_opt = wrap_text(f"{idx+1}. {text}", MAX_OPT_CHARS_PER_LINE)
 
         if reveal:
-            # Reveal phase - correct answer highlighted
-            if is_corr:
-                color, fs, fontw = PALETTE["correct"], 60, BOLD_FONT
-            else:
-                color, fs, fontw = PALETTE["opt"], 50, REGULAR_FONT
-                
+            color = PALETTE["correct"] if is_corr else PALETTE["opt"]
+            fs = 60 if is_corr else 50
+            font = BOLD_FONT if is_corr else REGULAR_FONT
             clip = render_text_clip(
-                text=label,
-                font_path=fontw,
+                text=wrapped_opt,
+                font_path=font,
                 font_size=fs,
                 color_rgb=color,
                 duration=dur,
-                pos=(OPT_COLS[col], y)
+                pos=(OPT_COLS[col], y),
+                padding=(10, 10),
+                align="left"
             )
         else:
-            # Guess phase - sliding animation
-            color, fs, fontw = PALETTE["opt"], 50, REGULAR_FONT
+            color, fs, font = PALETTE["opt"], 50, REGULAR_FONT
             clip_duration = max(0.1, dur - idx * SLIDE_DELAY)
-            
-            # For the slide-in effect, we need a function
+
             def get_position(t, idx=idx, x0=OPT_COLS[col], y0=y):
-                # Only animate during the slide duration after this option's delay
                 elapsed = t - idx * SLIDE_DELAY
                 if elapsed <= 0:
-                    # Before the option's start time, position it off-screen
                     return (x0 - 200, y0)
-                elif elapsed >= SLIDE_DUR:
-                    # After animation completes, keep it at the final position
+                if elapsed >= SLIDE_DUR:
                     return (x0, y0)
-                else:
-                    # During animation, calculate position
-                    progress = elapsed / SLIDE_DUR
-                    offset = 200 * (1 - progress)
-                    return (x0 - offset, y0)
-            
-            # Create the clip with the animation
+                prog = elapsed / SLIDE_DUR
+                return (x0 - 200 * (1 - prog), y0)
+
             clip = render_text_clip(
-                text=label,
-                font_path=fontw,
+                text=wrapped_opt,
+                font_path=font,
                 font_size=fs,
                 color_rgb=color,
                 duration=clip_duration,
                 pos=get_position,
-                start_time=idx * SLIDE_DELAY
+                start_time=idx * SLIDE_DELAY,
+                padding=(10, 10),
+                align="left"
             )
-            
         clips.append(clip)
     return clips

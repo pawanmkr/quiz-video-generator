@@ -1,7 +1,5 @@
 from moviepy.editor import AudioFileClip
 from moviepy.audio.fx.volumex import volumex
-from typing import Dict, Any
-import os
 
 from config.settings import tick_path, ding_path, DUR_GUESS
 
@@ -26,7 +24,7 @@ class AudioResources:
             
         # Create fresh clip instances each time
         if name == "tick":
-            return AudioFileClip(path)
+            return AudioFileClip(path).fx(volumex, 1)
         elif name == "ding":
             return AudioFileClip(path).set_start(DUR_GUESS).fx(volumex, 0.05)
         return None

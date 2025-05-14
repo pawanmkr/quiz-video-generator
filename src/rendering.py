@@ -6,7 +6,8 @@ from moviepy.editor import (
     ColorClip, CompositeVideoClip, CompositeAudioClip, concatenate_videoclips
 )
 
-from config.settings import W, H, PALETTE, DUR_GUESS, DUR_REVEAL
+from config.settings import W, H, PALETTE, DUR_GUESS, DUR_REVEAL, FPS
+from config.settings import VIDEO_ENCODING_PRESET, VIDEO_ENCODING_BITRATE
 from src.clips import make_question_clip, make_option_clips, make_progress_bar
 from src.txt_rendering import render_text_clip
 from src.media import AudioResources
@@ -34,18 +35,19 @@ def build_question_video(question_id: str, data: Dict[str, Any],
     # === Guess phase ===
     bg1 = ColorClip((W, H), color=PALETTE["bg"], duration=DUR_GUESS)
     q1 = make_question_clip(question_text, DUR_GUESS)
-    opt1 = make_option_clips(options, DUR_GUESS, reveal=False)
+    opt1 = make_option_clips(question_text, options, dur=DUR_GUESS, reveal=False)
     bar = make_progress_bar(DUR_GUESS)
     audio1 = CompositeAudioClip([tick_sound])
 
     guess = CompositeVideoClip([bg1, q1, *opt1, bar])
     guess.duration = DUR_GUESS
-    guess = guess.set_audio(audio1)
+    trimmed_audio = audio1.subclip(0, guess.duration)
+    guess = guess.set_audio(trimmed_audio)
 
     # === Reveal phase ===
     bg2 = ColorClip((W, H), color=PALETTE["bg"], duration=DUR_REVEAL)
     q2 = make_question_clip(question_text, DUR_REVEAL)
-    opt2 = make_option_clips(options, DUR_REVEAL, reveal=True)
+    opt2 = make_option_clips(question_text, options, dur=DUR_REVEAL, reveal=True)
     audio_total = CompositeAudioClip([tick_sound, ding_sound])
 
     reveal = CompositeVideoClip([bg2, q2, *opt2])
@@ -61,6 +63,13 @@ def build_question_video(question_id: str, data: Dict[str, Any],
 
     # Save the video
     out_path = os.path.join(output_dir, f"quiz_{question_id}.mp4")
-    final.write_videofile(out_path, fps=60, codec="libx264", audio=True)
+    final.write_videofile(
+        out_path, 
+        fps=FPS, 
+        codec="libx264", 
+        audio=True,
+        preset=VIDEO_ENCODING_PRESET,
+        bitrate=VIDEO_ENCODING_BITRATE
+    )
     
     return out_path

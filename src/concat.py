@@ -1,6 +1,7 @@
 import os
 import subprocess
 from typing import List
+from src.render_intro import render_intro_clip
 
 def create_concat_list(output_paths: List[str], output_dir: str) -> str:
     """Create an FFmpeg concat format list file.
@@ -12,9 +13,11 @@ def create_concat_list(output_paths: List[str], output_dir: str) -> str:
     Returns:
         Path to the created list file
     """
+    intro_path = render_intro_clip()
+    full_list = [intro_path] + output_paths
     list_path = os.path.join(output_dir, "to_concat.txt")
     with open(list_path, "w") as f:
-        for p in output_paths:
+        for p in full_list:
             # Ensure paths are escaped properly if they contain spaces
             f.write(f"file '{p}'\n")
     return list_path

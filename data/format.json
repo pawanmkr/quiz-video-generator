@@ -1,25 +1,25 @@
 [
   {
-    "question_number": {
-      "question": "question_text",
+    "1": {
+      "question": "Who among the following is the world renowned exponent of the bamboo flute?",
       "asked_in": "",
       "options": {
-        "option1": false,
-        "option2": true,
-        "option3": false,
-        "option4": false
+        "MS Subbulakshmi": false,
+        "Ravi Shankar": false,
+        "Hariprasad Chaurasia": true,
+        "Bismillah Khan": false
       }
     }
   },
-    {
-    "question_number": {
-      "question": "question_text",
+  {
+    "2": {
+      "question": "What is net investment?",
       "asked_in": "",
       "options": {
-        "option1": false,
-        "option2": false,
-        "option3": true,
-        "option4": false
+        "Sum of all the investments in a country": false,
+        "Gross investment + depreciation": false,
+        "Gross capital investment - indirect taxes": false,
+        "Gross investment - depreciation": true
       }
     }
   }
